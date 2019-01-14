@@ -39,7 +39,10 @@ Jenkins側に、ブランチ名をパラメータとして動くジョブを作�
 そのジョブから、以下のスクリプトを実行することによって実現しています。  
 https://github.com/KatoRyota/test_jenkins/blob/develop/deploy.sh  
   
-そして、デプロイされると、アプリケーションサーバーが自動的に再起動され変更内容が反映されます。  
+そして、デプロイが成功すると、アプリケーションサーバーが自動的に再起動され変更内容が反映されます。  
+  
+以下は、『http://localhost:8080/hello』にアクセスした時の画面です。
+　　⇒https://github.com/KatoRyota/test_jenkins/blob/master/main.py  
   
 例）  
   
