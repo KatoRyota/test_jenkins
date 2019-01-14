@@ -22,7 +22,7 @@ GitHub → Jenkinsへの通知は、
   
 ![screenshot_2019-01-14 katoryota test_jenkins 1](https://user-images.githubusercontent.com/16982729/51110006-57b28d80-183a-11e9-9ed2-4b348e3fe54c.png)
   
-上記の設定とJenkins側でジョブを作成して、
+上記の設定とJenkins側でジョブを作成して、  
 以下のように、ビルドのパラメータ化で『payload』を設定してやることで、  
 ジョブで設定したシェルスクリプト内でJSON形式でコミット情報（ブランチ名など）を  
 取得することができるようになります。
