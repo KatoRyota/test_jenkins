@@ -9,6 +9,7 @@ set -eEu
 export LANG=ja_JP.UTF-8
 
 function configure() {
+    PAYLOAD=${payload}
     REPOSITORY='git@github.com:KatoRyota/test_jenkins.git'
     DEPLOY_BRANCH="develop"
 
