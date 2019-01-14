@@ -33,4 +33,7 @@ Jenkins側に、ブランチ名をパラメータとして動くジョブを作�
 https://github.com/KatoRyota/test_jenkins/blob/develop/deploy.sh
 
 そして、デプロイされると、アプリケーションサーバーが自動的に再起動され変更内容が反映されます。
+
+例）
+
 ![screenshot_2019-01-14 screenshot](https://user-images.githubusercontent.com/16982729/51109394-7e6fc480-1838-11e9-9ad5-ddd9440cc5a5.png)
