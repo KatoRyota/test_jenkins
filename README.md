@@ -12,3 +12,4 @@
     4. ユーザーが、Jenkinsのデプロイジョブを実行して、デプロイ対象のブランチをデプロイする。
 ```
 
+![screenshot_2019-01-14 katoryota test_jenkins](https://user-images.githubusercontent.com/16982729/51109034-461bb680-1837-11e9-824d-7f1e00f5379e.png)

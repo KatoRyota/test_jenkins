@@ -9,8 +9,13 @@ set -eEu
 export LANG=ja_JP.UTF-8
 
 function configure() {
+    # GitHub → Jenkins経由で環境『payload』が渡されます。
     PAYLOAD=${payload}
+
+    # アプリケーションのGitリポジトリ
     REPOSITORY='git@github.com:KatoRyota/test_jenkins.git'
+
+    perl -MJSON::PP -ne '$payload_json = decode_json $payload; $payload_json->{".ref"} =~ //; print $1'
     DEPLOY_BRANCH="develop"
 
     JENKINS_MODULES_DIR=/home/santa/jenkins/app/modules/
